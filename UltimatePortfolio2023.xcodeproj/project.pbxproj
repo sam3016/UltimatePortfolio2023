@@ -16,6 +16,8 @@
 		A1F4812729C98BF20075F770 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4812629C98BF20075F770 /* DetailView.swift */; };
 		A1F4812B29C994980075F770 /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4812A29C994980075F770 /* Filter.swift */; };
 		A1F4813129C996790075F770 /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F4812F29C996790075F770 /* Main.xcdatamodeld */; };
+		A1F4813529C99D6B0075F770 /* Issue-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4813429C99D6B0075F770 /* Issue-CoreDataHelpers.swift */; };
+		A1F4813729C99EDD0075F770 /* Tag-CoreDataHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4813629C99EDD0075F770 /* Tag-CoreDataHelpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A1F4812629C98BF20075F770 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		A1F4812A29C994980075F770 /* Filter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
 		A1F4813029C996790075F770 /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		A1F4813429C99D6B0075F770 /* Issue-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Issue-CoreDataHelpers.swift"; sourceTree = "<group>"; };
+		A1F4813629C99EDD0075F770 /* Tag-CoreDataHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tag-CoreDataHelpers.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,12 +69,14 @@
 			children = (
 				A15A100A29C76B540043A825 /* Info.plist */,
 				A15A0FF629C75FD00043A825 /* UltimatePortfolio2023App.swift */,
-				A1F4812F29C996790075F770 /* Main.xcdatamodeld */,
 				A15A100829C7660A0043A825 /* DataController.swift */,
+				A1F4813429C99D6B0075F770 /* Issue-CoreDataHelpers.swift */,
+				A1F4813629C99EDD0075F770 /* Tag-CoreDataHelpers.swift */,
 				A15A0FF829C75FD00043A825 /* ContentView.swift */,
 				A1F4812429C98BE80075F770 /* SidebarView.swift */,
 				A1F4812629C98BF20075F770 /* DetailView.swift */,
 				A1F4812A29C994980075F770 /* Filter.swift */,
+				A1F4812F29C996790075F770 /* Main.xcdatamodeld */,
 				A15A0FFA29C75FD10043A825 /* Assets.xcassets */,
 				A15A0FFC29C75FD10043A825 /* UltimatePortfolio2023.entitlements */,
 				A15A0FFD29C75FD10043A825 /* Preview Content */,
@@ -157,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1F4812B29C994980075F770 /* Filter.swift in Sources */,
+				A1F4813729C99EDD0075F770 /* Tag-CoreDataHelpers.swift in Sources */,
 				A1F4812729C98BF20075F770 /* DetailView.swift in Sources */,
+				A1F4813529C99D6B0075F770 /* Issue-CoreDataHelpers.swift in Sources */,
 				A15A100929C7660A0043A825 /* DataController.swift in Sources */,
 				A1F4812529C98BE80075F770 /* SidebarView.swift in Sources */,
 				A1F4813129C996790075F770 /* Main.xcdatamodeld in Sources */,
