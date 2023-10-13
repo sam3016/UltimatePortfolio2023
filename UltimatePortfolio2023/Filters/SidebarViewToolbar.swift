@@ -19,7 +19,7 @@ struct SidebarViewToolbar: View {
         Button {
             showingAwards.toggle()
         } label: {
-            Label("Showing awards", systemImage: "rosette")
+            Label("Show awards", systemImage: "rosette")
         }
         .sheet(isPresented: $showingAwards, content: AwardsView.init)
 
